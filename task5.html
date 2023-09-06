@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <title>Registration Page</title>
+    <style type="text/css">
+        .style1 {
+            width: 50%;
+            margin-left: auto;
+  margin-right: auto;
+           
+        }
+        table, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+          }
+          .ip{
+            width:620px
+          }
+          .register{
+            text-align:center;
+          }
+          th{
+            text-align:center;
+            font-weight:600;
+            width: 40%;
+          }
+          h2{
+            margin-top: 50px;
+            margin-bottom:0px;
+            text-align:center;
+            color:blue;
+          }
+    </style>
+</head>
+
+<body>
+    <h2><strong>Registration Form</strong></h2>
+    <form id="form1">
+        <div>
+            <table class="style1">
+                <tr>
+                    <th>First Name:</th>
+                    <td>
+                        <input class="ip" type="text" id="TxtName" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last Name: </th>
+                    <td>
+                        <input class="ip" type="text" id="mail" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><strong>Email:</strong></th>
+                    <td>
+                        <input class="ip" type="text" id="TxtUserName" />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Password:</th>
+                    <td>
+                        <input class="ip" type="password" id="TxtPassword" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Re-enter Password:</th>
+                    <td>
+                        <input class="ip" type="password" id="TxtRePassword" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Male</label><br>
+                    
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Female</label>
+                </td>
+                <br>
+                </tr>
+
+                <tr>
+                    <th>Age:</th>
+                    <td>
+                        <input class="ip" type="number" id="TxtAge" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Phone Number:</th>
+                    <td>
+                        <input class="ip"type="number" id="TxtAge" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td>
+                        <input class="ip" type="text" id="TxtAddress" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>State:</th>
+                    <td>
+                        <input class="ip" type="text" id="TxtAddress" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Country:</th>
+                    <td>
+                        <select id="DropDownList1">
+                            <option value="-1">Choose your country</option>
+
+                            <option>India</option>
+                            <option>Japan</option>
+                            <option>USA</option>
+                            <option>Canada</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Languages Known</th>
+                    <label class="container">
+                    <td><input type="checkbox" id="eng" name="fav_language" value="HTML">
+                    <label for="eng">English</label>
+                    
+                    <input type="checkbox" id="kan" name="fav_language" value="CSS">
+                    <label for="kan">Kannada</label>
+
+                    <input type="checkbox" id="hin" name="fav_language" value="HTML">
+                        <label for="hin">Hindi</label>
+                        
+                        <input type="checkbox" id="tel" name="fav_language" value="CSS">
+                        <label for="tel">Telugu</label>
+
+                </td>
+        
+                <br>
+                </tr>
+                <tr>
+
+               <td colspan="2">
+                <input type="checkbox" id="kann" name="fav_language" value="CSS">
+                <label for="kann">Hereby I declare all the given details are true</label>
+            </td>
+
+                </tr>
+                <tr>
+                    <td align="right" colspan="2">
+                        Log in to <a href="https://ethnus.com/">ethnus</a> website
+                    </td>
+
+                </tr>
+
+             
+
+            </table>
+        </div>
+   
+        <br>
+        <div class="register">
+        <button type="button" id="Button1">Register</button>
+
+
+    </form>
+</div>
+</body>
+
+</html>
